@@ -38,6 +38,9 @@ export MKBOOTIMG
 # Healthd
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.mrvl
 
+# Disable keymaster HAL
+TARGET_PROVIDES_KEYMASTER := true
+
 # RIL
 BOARD_PROVIDES_LIBRIL := true
 #ANDROID_MULTI_SIM := true
