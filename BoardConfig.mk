@@ -55,13 +55,13 @@ TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/
 
 BOARD_KERNEL_BASE         := 0x10000000
-BOARD_KERNEL_CMDLINE      := android.mavaleur=test androidboot.selinux=permssive
+BOARD_KERNEL_CMDLINE      := android.mavaleur=test androidboot.selinux=permissive
 BOARD_KERNEL_PAGESIZE     := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_KERNEL_IMAGE_NAME   := Image.gz
 BOARD_DTBTOOL_ARGS        :=
-BOARD_MKBOOTIMG_ARGS      := --unknown 0x3000000 --tags_offset 0x00000100
-BOARD_MKRECOVERYIMG_ARGS  := --unknown 0x3000000 --tags_offset 0x00000100
+BOARD_MKBOOTIMG_ARGS      := --unknown 0x3000000 --tags_offset 0x00000100 --seandroidenforce
+BOARD_MKRECOVERYIMG_ARGS  := --unknown 0x3000000 --tags_offset 0x00000100 --seandroidenforce
 BOARD_UBOOT_ARGS          := -A arm64 -O linux -T kernel -C gzip -a 01000000 -e 01000000 -n "pxa1928dkb linux"
 BOARD_UBOOT_IMAGE_NAME    := uImage
 
