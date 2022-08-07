@@ -1,31 +1,31 @@
 # Audio
-lib/hw/audio.a2dp.default.so
-lib/hw/audio_policy.default.so
-lib/hw/audio.primary.default.so
-lib/hw/audio.primary.mrvl.so
+#lib/hw/audio.a2dp.default.so
+#lib/hw/audio_policy.default.so
+#lib/hw/audio.primary.default.so
+#lib/hw/audio.primary.mrvl.so
 lib/libsamsungSoundbooster.so
 lib/lib_Samsung_SB_AM_for_ICS_v03008.so
 lib/libSamsungPreProcess.so
 lib/libSamsungPostProcess.so
 lib/libsamsungRecord.so
 lib/lib_SamsungRec_V04012.so
-lib/libacm.so
-lib/libacoustic.so
+#lib/libacm.so
+#lib/libacoustic.so
 lib/libippsp.so
 lib/libmiscgen.so
 lib/libippvp.so
 lib/libaudiodebugtool.so
-lib/libvcm.so
-lib/hw/audio.r_submix.default.so
-lib/hw/audio.usb.default.so
+#lib/libvcm.so
+#lib/hw/audio.r_submix.default.so
+#lib/hw/audio.usb.default.so
 
 # Bluetooth
-lib/hw/bluetooth.default.so
+#lib/hw/bluetooth.default.so
 lib/libbt-iopdb.so
 lib/libbt-iopdb_mod.so
 lib/libedmnativehelper.so
-vendor/lib/libbt-vendor.so
-lib/libMarvellWireless.so
+#vendor/lib/libbt-vendor.so
+#lib/libMarvellWireless.so
 lib/libbt-codec_aptx.so
 lib/libbt-aptx-4.0.3.so
 lib/libbt-codec_sshd.so
@@ -39,7 +39,7 @@ lib/libb52sensorhal.so
 lib/libcodeccoda7542enc.so
 lib/libLENCMerge.so
 lib/libcoda7542.so
-lib/libmvmem.so
+#lib/libmvmem.so
 lib/libcoda7542hal.so
 lib/libcodecjpegdec.so
 lib/libcodecjpegenc.so
@@ -52,16 +52,16 @@ lib/libsecnativefeature.so
 
 
 # GPS
-lib/hw/gps.mrvl.so
+#lib/hw/gps.mrvl.so
 lib/libagps_hal.so
 lib/libmtelif.so
 lib/libmtel.so
 
 # GPU
-lib/hw/gralloc.default.so
-lib/hw/gralloc.mrvl.so
-lib/hw/hwcomposer.mrvl.so
-lib/libHWComposerGC.so
+#lib/hw/gralloc.default.so
+#lib/hw/gralloc.mrvl.so
+#lib/hw/hwcomposer.mrvl.so
+#lib/libHWComposerGC.so
 lib/egl/libEGL_MRVL.so
 lib/egl/libGLESv1_CM_MRVL.so
 lib/egl/libGLESv2_MRVL.so
@@ -75,12 +75,12 @@ lib/libion.so
 
 
 # Keystore
-lib/hw/keystore.default.so
+#lib/hw/keystore.default.so
 lib/hw/keystore.mrvl.so
 lib/libtee_client.so
 
 # Lights
-lib/hw/lights.mrvl.so
+#lib/hw/lights.mrvl.so
 lib/libsecril-client.so
 
 # RIL
@@ -106,7 +106,7 @@ lib/hw/sensors.mrvl.so
 lib/libyasalgo.so
 
 # Vibrator
-lib/hw/vibrator.default.so
+#lib/hw/vibrator.default.so
 
 lib/libwvm.so
 
